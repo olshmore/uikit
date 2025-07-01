@@ -1,14 +1,14 @@
 {
-  "name": "uikit",
-  "version": "1.0.0",
+  "name": "@olyshs/uikit",
+  "version": "1.0.1",
   "description": "Zero-dependency UI kit built with Web Components",
-  "main": "dist/button.js",
+  "main": "dist/y-button.js",
   "type": "module",
   "scripts": {
-    "build": "esbuild src/button.js --bundle --minify --outfile=dist/button.js"
+    "build": "esbuild src/y-button.js --bundle --minify --outfile=dist/y-button.js"
   },
   "exports": {
-    ".": "./dist/button.js"
+    ".": "./dist/y-button.js"
   },
   "files": [
     "dist",
