@@ -1,0 +1,27 @@
+{
+  "name": "uikit",
+  "version": "1.0.0",
+  "description": "Zero-dependency UI kit built with Web Components",
+  "main": "dist/button.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/button.js --bundle --minify --outfile=dist/button.js"
+  },
+  "exports": {
+    ".": "./dist/button.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "ui-kit",
+    "web components",
+    "zero-dependency"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}

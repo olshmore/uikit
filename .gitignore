@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+dist/
+build/
+.output/
+.out/
+
+# Environment files
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+
+# Tool caches
+.cache/
+.nuxt/
+.nitro/
+.next/
+.svelte-kit/
+turbo/
+.eslintcache
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
